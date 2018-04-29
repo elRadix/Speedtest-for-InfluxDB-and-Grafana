@@ -1,4 +1,4 @@
-FROM python:3.3-slim
+FROM resin/raspberry-pi-python:3.4.8-slim-20180427
 MAINTAINER Allan Tribe <atribe13@gmail.com>
 
 ADD . /src
